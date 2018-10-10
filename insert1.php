@@ -41,9 +41,9 @@
 				<div class="mt-2 row">
 					<input class="btn btn-success btn-block" type="submit" value="บันทึก">
 				</div>
+			</div>
 				<div class="col-lg-10" style="background-color:blue;">
 				</div>
-			</div>
 		</div>
 	</body>
 </html>
