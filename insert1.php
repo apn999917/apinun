@@ -66,12 +66,18 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
-									<th>1111</th>
-									<th>2222</th>
-									<th>3333</th>
-									<th>4444</th>
-								</tr>
+								<?php
+									$sql = "SELECT * FROM tbl_apinun";
+									$query = mysqli_query($conn,$sql);
+									while($obj = mysqli_fetch_array($query))
+									{
+										echo "<tr>";
+										echo "<td>".$obj["name"]."</td>";
+										echo "<td>".$obj["lastname"]."</td>";
+										echo "<td>".$obj["email"]."</td>";
+										echo "</tr>";
+									}
+								?>
 							</tbody>
 					</table>
 					</div>
