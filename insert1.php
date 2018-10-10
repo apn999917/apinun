@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<title>บันทึกข้อมูล</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0," charset="utf-8">
 		<title>BOT TRAIN PEA S.1</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -14,6 +15,14 @@
 				text-align:center;
 			}
 		</style>
+		<?php
+			$server = "us-cdbr-iron-east-01.cleardb.net";
+			$username = "b798786b8aa714";
+			$password = "2e0e0451";
+			$db = "heroku_ce52199dd4f50e1";
+			$conn = new mysqli($server, $username, $password, $db);
+			mysqli_query($conn,"SET NAME utf8");
+		?>
 	</head>
 	<body>
 		<div class="container-fluid" style="background-color:pink;">
