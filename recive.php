@@ -1,4 +1,4 @@
 <?php
-	$name = $_post["name"];
+	$name = $_POST["name"];
 	echo $name;
 ?>
