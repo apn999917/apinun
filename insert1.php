@@ -43,7 +43,7 @@
 				</div>
 			</div>
 				<div class="col-lg-10">
-					< class="table-responsive">
+					<div class="table-responsive">
 					<table class="table">
 							<thead>
 								<tr>
@@ -62,6 +62,7 @@
 								</tr>
 							</tbody>
 					</table>
+					</div>
 				</div>
 		</div>
 	</body>
