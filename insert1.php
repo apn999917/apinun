@@ -42,7 +42,26 @@
 					<input class="btn btn-success btn-block" type="submit" value="บันทึก">
 				</div>
 			</div>
-				<div class="col-lg-10" style="background-color:blue;">
+				<div class="col-lg-10">
+					< class="table-responsive">
+					<table class="table">
+							<thead>
+								<tr>
+									<th>ชื่อ</th>
+									<th>นามสกุล</th>
+									<th>email</th>
+									<th>999</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th>1111</th>
+									<th>2222</th>
+									<th>3333</th>
+									<th>4444</th>
+								</tr>
+							</tbody>
+					</table>
 				</div>
 		</div>
 	</body>
