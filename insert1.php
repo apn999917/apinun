@@ -26,7 +26,20 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-2" style="background-color:yellow;">
-					<h4>col1</h4>
+				<div class="row">
+					<label for="usr">ชื่อ:</label>
+					<input type="text" class="form-control" name="name" placeholder="ใส่ชื่อ>
+				</div>
+				<div class="row">
+					<label for="usr">นามสกุล:</label>
+					<input type="text" class="form-control" name="lastname"  placeholder="ใส่นามสกุล>
+				</div>
+				<div class="row">
+					<label for="usr">email:</label>
+					<input type="text" class="form-control" name="email" placeholder="ใส่อีเมล>
+				</div>
+				<div class="mt-2 row">
+					<input class="btn btn-success btn-block" type="submit" value="บันทึก">
 				</div>
 				<div class="col-lg-10" style="background-color:blue;">
 					<h4>col2</h4>
